@@ -48,7 +48,23 @@
   <ItemGroup>
      <Compile Include="Assets\Juan Ma\Plane.cs" />
      <Compile Include="Assets\Scripts\Activar.cs" />
+     <Compile Include="Assets\Scripts\Camara.cs" />
+     <Compile Include="Assets\Scripts\DestruirArma.cs" />
+     <Compile Include="Assets\Scripts\Evomaze_Ex.cs" />
+     <Compile Include="Assets\Scripts\Inteligencia.cs" />
+     <Compile Include="Assets\Scripts\SpawnArmas.cs" />
+     <Compile Include="Assets\Scripts\audio.cs" />
+     <Compile Include="Assets\Scripts\linea.cs" />
      <Compile Include="Assets\Scripts\mover.cs" />
+     <Compile Include="Assets\UX\Scripts\LoadScene.cs" />
+     <Compile Include="Assets\UX\Scripts\PauseGame.cs" />
+     <Compile Include="Assets\UX\Scripts\Timer.cs" />
+     <Compile Include="Assets\torch\scene\script\TorchSlider.cs" />
+     <Compile Include="Assets\torch\scene\script\Torchslider2.cs" />
+     <Compile Include="Assets\torch\scripts\Torchelight.cs" />
+     <None Include="Assets\UX\Imports\Necromancer GUI\Kingthings.txt" />
+     <None Include="Assets\UX\Imports\Necromancer GUI\Readme.txt" />
+     <None Include="Assets\torch\readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -69,6 +85,12 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="EvomazeLibraryBuild">
+ <HintPath>F:/int2/Maze/Assets/Scripts/EvomazeLibraryBuild.dll</HintPath>
+ </Reference>
+ <Reference Include="UnitySVM">
+ <HintPath>F:/int2/Maze/Assets/Scripts/UnitySVM.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
